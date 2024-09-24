@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Requests Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+            height: 100vh;
+        }
+
+        .table-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f5f5f5;
+        }
+
+        .accept-btn, .reject-btn {
+            font-size: 18px;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 50%;
+            border: none;
+        }
+
+        .accept-btn {
+            background-color: #4CAF50; 
+            color: white;
+        }
+
+        .reject-btn {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .icon-btn {
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="table-container">
+    <h2 style="text-align: center;">REQUESTS</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>S.no</th>
+                <th>Roll no</th>
+                <th>Name</th>
+                <th>Branch</th>
+                <th>Section</th>
+                <th>Accept/Reject</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <button class="icon-btn accept-btn"><i class="fas fa-check"></i></button>
+                    <button class="icon-btn reject-btn"><i class="fas fa-times"></i></button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
